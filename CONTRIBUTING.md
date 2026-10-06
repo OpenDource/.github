@@ -1,241 +1,158 @@
-Contributing to Open Source Apps
+# Contributing to OpenDource
 
-Thank you for your interest in contributing to Open Source Apps.
+Thank you for your interest in contributing to OpenDource.
 
-We build simple, practical, and open-source software with one guiding principle:
+We believe open-source software is strongest when people with different skills and perspectives work together.
 
-Minimum apps. Maximum productivity.
+Whether you're submitting code, reporting a bug, improving documentation, testing a project, or suggesting an idea, your contribution is valuable.
 
-We welcome contributions from developers, designers, writers, testers, researchers, and anyone interested in helping improve our projects.
+## Before You Contribute
 
-How You Can Contribute
+Before opening an issue or pull request:
 
-There are many ways to contribute:
+1. Check the repository documentation.
+2. Search existing issues and discussions.
+3. Make sure your contribution fits the project's purpose.
+4. Review the repository's specific contribution guidelines.
 
-🐛 Report bugs
+Some repositories may have additional requirements.
 
-💡 Suggest features or improvements
+---
 
-🔧 Submit code changes
+## Ways to Contribute
 
-📚 Improve documentation
+### 🐛 Report Bugs
 
-🧪 Test projects
+When reporting a bug, include:
 
-🎨 Improve user interfaces and user experience
+- A clear description of the problem
+- Steps to reproduce it
+- Expected behavior
+- Actual behavior
+- Relevant screenshots or logs
+- Environment details when applicable
 
-🔍 Review pull requests
+Use the **Bug Report** issue template whenever available.
 
-🌍 Help with translations
+### 💡 Suggest Features
 
-💬 Share feedback and ideas
+Feature requests should explain:
 
-You don't need to contribute code to be part of the community.
+- What problem the feature solves
+- Why it would be useful
+- How you think it could work
+- Any alternatives you considered
 
-Before You Start
+Please focus on the problem first rather than only proposing a specific implementation.
 
-Before making a contribution:
+### 🔧 Submit Code
 
-Read the README.md of the project you're interested in.
+For code contributions:
 
-Check existing issues and pull requests.
+1. Fork the repository if required.
+2. Create a focused branch.
+3. Make your changes.
+4. Test your changes.
+5. Update documentation when necessary.
+6. Submit a pull request.
 
-Look for issues labeled good first issue or help wanted.
+Keep pull requests focused on a single problem or improvement whenever possible.
 
-For significant changes, open an issue or discussion before starting work.
+---
 
-This helps prevent duplicated work and allows the maintainers and contributors to discuss the proposed approach.
+## Pull Requests
 
-Reporting Bugs
+A good pull request should:
 
-If you find a bug, please open a GitHub issue in the relevant repository.
+- Have a clear title
+- Explain what changed and why
+- Include relevant tests
+- Avoid unrelated changes
+- Keep documentation up to date
+- Follow the project's existing coding style
 
-Include as much useful information as possible:
+Maintainers may request changes before a pull request is merged.
 
-What happened?
+---
 
-What did you expect to happen?
+## Commit Messages
 
-Steps to reproduce the problem
+Use clear and meaningful commit messages.
 
-Operating system
+Examples:
 
-Project version
+```text
+feat: add repository activity metrics
+fix: resolve pagination issue
+docs: improve installation guide
+refactor: simplify API service
+test: add authentication tests
+```
 
-Relevant logs or error messages
+Keep commits focused and understandable.
 
-Screenshots, if applicable
+---
 
-Please remove passwords, API keys, tokens, and other sensitive information before submitting an issue.
+## Code Quality
 
-Suggesting Features
+Contributions should prioritize:
 
-We welcome ideas that make our projects more useful.
+- Readability
+- Maintainability
+- Reliability
+- Security
+- Performance where relevant
+- Appropriate testing
+- Consistent project conventions
 
-When suggesting a feature, explain:
+Avoid adding complexity unless it provides a meaningful benefit.
 
-What problem does it solve?
+---
 
-Who would benefit from it?
+## Documentation
 
-How do you expect it to work?
+Documentation is part of the product.
 
-Are there alternative approaches?
+Please update documentation when your contribution changes:
 
-Features should generally support the project's purpose and avoid unnecessary complexity.
+- Installation
+- Configuration
+- Usage
+- APIs
+- Commands
+- Architecture
+- User-facing behavior
 
-Making a Pull Request
-1. Fork the repository
+---
 
-Create your own fork of the project.
+## Review Process
 
-2. Clone your fork
-git clone <your-fork-url>
-cd <repository-name>
+Pull requests may be reviewed for:
 
-3. Create a branch
+- Correctness
+- Maintainability
+- Security
+- Performance
+- User impact
+- Test coverage
+- Consistency with project goals
 
-Use a descriptive branch name:
+Reviews are intended to improve the project, not the person submitting the contribution.
 
-git checkout -b feature/add-example
+Please keep discussions technical, respectful, and constructive.
 
+---
 
-or:
+## Getting Help
 
-git checkout -b fix/file-handling
+For questions about a specific repository, check its README, documentation, issues, and discussions first.
 
-4. Make your changes
+For general support, see [SUPPORT.md](SUPPORT.md).
 
-Keep your changes focused and avoid unrelated modifications.
+---
 
-5. Add or update tests
+## Code of Conduct
 
-If your change affects functionality, add appropriate tests whenever possible.
+By participating in OpenDource projects, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-6. Check your changes
-
-Run the project's tests, linters, formatters, and other required checks.
-
-The repository's README.md should contain project-specific instructions.
-
-7. Commit your changes
-
-Use a clear commit message:
-
-Add support for XYZ
-
-
-or:
-
-Fix file parsing error
-
-8. Push your branch
-git push origin feature/add-example
-
-9. Open a Pull Request
-
-Open a pull request against the project's default branch.
-
-Describe:
-
-What you changed
-
-Why you changed it
-
-How you tested it
-
-Any limitations or considerations
-
-Pull Request Guidelines
-
-Please keep pull requests:
-
-Focused
-
-Understandable
-
-Tested
-
-Documented when necessary
-
-Consistent with the project's existing code style
-
-Large changes should generally be discussed before implementation.
-
-Maintainers may request changes, ask questions, or suggest a different approach. This is part of the normal review process.
-
-Code Quality
-
-We value:
-
-Readable code
-
-Simple solutions
-
-Appropriate documentation
-
-Automated tests
-
-Consistent formatting
-
-Clear naming
-
-Maintainable architecture
-
-We prefer straightforward solutions over unnecessary complexity.
-
-Documentation
-
-Documentation is an important part of open source.
-
-If your contribution changes how something works, please update the relevant documentation.
-
-Documentation contributions are welcome even if you don't write code.
-
-Security
-
-Please do not publicly report security vulnerabilities through GitHub issues.
-
-For security-related issues, follow the instructions in the project's SECURITY.md file.
-
-Never include passwords, API keys, access tokens, private keys, or other sensitive information in issues or pull requests.
-
-Community Standards
-
-We expect everyone participating in our projects to be respectful and constructive.
-
-Please read our Code of Conduct.
-
-First-Time Contributors
-
-New to open source?
-
-That's completely fine.
-
-Look for issues labeled:
-
-good first issue
-
-help wanted
-
-documentation
-
-beginner-friendly
-
-If you're unsure where to start, feel free to ask questions in the project's discussions or issues.
-
-Contribution License
-
-By submitting a contribution to an Open Source Apps project, you agree that your contribution may be distributed under the license of the repository you are contributing to.
-
-Please check the individual repository's LICENSE file for project-specific licensing information.
-
-Thank You
-
-Every contribution matters.
-
-Whether you fixed a typo, reported a bug, improved documentation, submitted code, or shared an idea — thank you for helping us build better open-source software.
-
-Open Source Apps
-
-Minimum apps. Maximum productivity.
+Thank you for helping us build better open-source software.
